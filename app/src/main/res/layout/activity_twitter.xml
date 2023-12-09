@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_background"
+    tools:context=".twitter_activity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView23"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-15dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/bg"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView22"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="30dp"
+                android:background="@color/white"
+                android:backgroundTint="@color/white"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/icons8_twitter" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab_bold"
+                android:text="Twitter"
+                android:textColor="@color/heading_cl"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/cardView22"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/cardView22"
+                app:layout_constraintTop_toTopOf="@+id/cardView22" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView24"
+        android:layout_width="0dp"
+        android:layout_height="430dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView23">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                android:backgroundTint="@color/white">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="X,[b][13] formerly called Twitter,[c] is an online social media and social networking service operated by the American company X Corp., the successor of Twitter, Inc. On X, registered users can post text, images and videos.[15] Users can also like, repost, quote repost, comment on posts, direct message, video and audio call, bookmark, join lists and communities, and join public Spaces with other registered users. Users can vote on context added by approved users using the Community Notes feature. Posting information to the site is often referred to historically as tweeting, retweeting and quote tweeting/retweeting (depending on the country). Although the service is now called X, the primary website address remains twitter.com as of November 2023, with the x.com domain name redirecting to that address.  Twitter was created in March 2006 by Jack Dorsey, Noah Glass, Biz Stone, and Evan Williams. It was launched in July of that year. Its parent company, Twitter, Inc., was based in San Francisco, California and had more than 25 offices around the world.[16] By 2012, more than 100 million users produced 340 million tweets a day,[17] and the service handled an average of 1.6 billion search queries per day.[18][19][17] In 2013, it was one of the world's ten most-visited websites.[20] By the start of 2019, Twitter had more than 330 million monthly active users.[21] In practice, the vast majority of tweets are produced by a minority of users.[22][23] In 2020, it was estimated that approximately 48 million accounts (15% of all accounts) were not genuine people.[24] As of October 2023, X is the 5th most-visited website in the world with 23.6% of its traffic coming from the United States followed by Japan at 15.94% and the United Kingdom at 5.57% according to data provided by Similarweb.[25][26]  In October 2022, billionaire Elon Musk acquired Twitter for US$44 billion, gaining control of the platform and becoming CEO.[27][28][29][30] Since the acquisition, the platform has been criticized for the spread of misinformation and disinformation,[31][32][33] facilitating an increase in hate speech,[34][35][36] promoting antisemitic conspiracy theories[37][38] and transphobia.[39][40] However, the platform has been embraced for taking a different approach to content moderation.[41] Focusing more on automation—allowing Twitter to stop the distribution of material deemed harmful rather than banning or ‘striking’ users outright—this has been praised for less political influence on moderation, but criticized for allowing more abuse to stay on the platform. X has been described as turning into a ‘digital town square’ as coined by Elon Musk. With no major features released as of yet, payment processing and other features unrelated to typical social networking, like as seen with WeChat, may be the goal of the acquisition and rebrand of what was historically Twitter. This has received mostly negative reactions, with the first debut of this idea being with the Ron DeSantis presidential campaign,[42][43] a figure closely tied with Elon Musk’s political affiliations.[44]  Linda Yaccarino succeeded Musk as CEO on June 5, 2023, with Musk remaining as Chairman and CTO.[10][45][46] In July 2023, Musk announced that Twitter would be rebranded to X and that the bird logo would be retired.[47][48] In October 2023, the company estimated its value at about $19 billion, down about 55% from the purchase price one year earlier.[49] Fidelity at about the same time estimated the value to be down 65% from its purchase price."
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/bg"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView24" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/x_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#f7a072"
+                android:text="Twitter"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

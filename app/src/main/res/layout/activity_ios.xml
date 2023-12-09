@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_background"
+    android:backgroundTint="@color/home_background"
+    tools:context=".ios_activity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView7"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-15dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/bg"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="40dp"
+                android:background="@color/white"
+                android:backgroundTint="@color/white"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/apple_ios" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IOS"
+                android:textColor="@color/heading_cl"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/cardView6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/cardView6"
+                app:layout_constraintTop_toTopOf="@+id/cardView6" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView8"
+        android:layout_width="0dp"
+        android:layout_height="430dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView7">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="iOS (formerly iPhone OS)[5] is a mobile operating system developed by Apple Inc. exclusively for its hardware. It is the operating system that powers many of the company's mobile devices, including the iPhone; the term also includes the system software for iPads (predating iPadOS, which was introduced in 2019) as well as on the iPod Touch devices (which were discontinued in mid-2022).[6] It is the world's second-most widely installed mobile operating system, after Android. It is the basis for three other operating systems made by Apple: iPadOS, tvOS, and watchOS.[7] It is proprietary software, although some parts of it are open source under the Apple Public Source License and other licenses.[8]  Unveiled in 2007 for the first-generation iPhone, iOS has since been extended to support other Apple devices such as the iPod Touch (September 2007) and the iPad (introduced: January 2010; availability: April 2010). As of March 2018, Apple's App Store contains more than 2.1 million iOS applications, 1 million of which are native for iPads.[9] These mobile apps have collectively been downloaded more than 130 billion times.  Major versions of iOS are released annually. The current stable version, iOS 17, was released to the public on September 18, 2023. In 2005, when Steve Jobs began planning the iPhone, he had a choice to either quot;shrink the Mac, which would be an epic feat of engineering, or enlarge the iPod and quot;. Jobs favored the former approach but pitted the Macintosh and iPod teams, led by Scott Forstall and Tony Fadell, respectively, against each other in an internal competition, with Forstall winning by creating the iPhone OS. The decision enabled the success of the iPhone as a platform for third-party developers: using a well-known desktop operating system as its basis allowed the many third-party Mac developers to write software for the iPhone with minimal retraining. Forstall was also responsible for creating a software development kit for programmers to build iPhone apps, as well as an App Store within iTunes.[11][12]  The operating system was unveiled with the iPhone at the Macworld Conference and Expo on January 9, 2007, and released in June of that year.[13][14][15] At the time of its unveiling in January, Steve Jobs claimed: and quot;iPhone runs OS X and quot; and runs and quot;desktop class applications and quot;,[16][17] but at the time of the iPhone's release, the operating system was renamed and quot;iPhone OS and quot;.[18] Initially, third-party native applications were not supported. Jobs' reasoning was that developers could build web applications through the Safari web browser that and quot;would behave like native apps on the iPhone and quot;.[19][20] In October 2007, Apple announced that a native Software Development Kit (SDK) was under development and that they planned to put it and quot;in developers' hands in February and quot;.[21][22][23] On March 6, 2008, Apple held a press event, announcing the iPhone SDK.[24][25]   iPhone (first generation), the first commercially released device running iOS, then called iPhone OS (2007) The iOS App Store was opened on July 10, 2008, with an initial 500 applications available.[26] This quickly grew to 3,000 in September 2008,[27] 15,000 in January 2009,[28] 50,000 in June 2009,[29] 100,000 in November 2009,[30][31] 250,000 in August 2010,[32][33] 650,000 in July 2012,[34] 1 million in October 2013,[35][36] 2 million in June 2016,[37][38][39] and 2.2 million in January 2017.[40][41] As of March 2016, 1 million apps are natively compatible with the iPad tablet computer.[42] These apps have collectively been downloaded more than 130 billion times.[37] App intelligence firm Sensor Tower estimated that the App Store would reach 5 million apps by 2020.[43]  In September 2007, Apple announced the iPod Touch, a redesigned iPod based on the iPhone form factor.[44] On January 27, 2010, Apple introduced their much-anticipated media tablet, the iPad, featuring a larger screen than the iPhone and iPod Touch, and designed for web browsing, media consumption, and reading, and offering multi-touch interaction with multimedia formats including newspapers, e-books, photos, videos, music, word processing documents, video games, and most existing iPhone apps using a 9.7-inch (25 cm) screen.[45][46][47] It also includes a mobile version of Safari for web browsing, as well as access to the App Store, iTunes Library, iBookstore, Contacts, and Notes. Content is downloadable via Wi-Fi and optional 3G service or synced through the user's computer.[48] ATandT was initially the sole U.S. provider of 3G wireless access for the iPad.[49]  In June 2010, Apple rebranded iPhone OS as quot;iOS quot;.[50][51] The trademark  quot;IOS quot; had been used by Cisco for over a decade for its operating system, IOS, used on its routers. To avoid any potential lawsuit, Apple licensed the quot;IOS quot; trademark from Cisco."
+                    android:textColor="@color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/bg"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView8" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_ios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#f7a072"
+                android:text="IOS"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

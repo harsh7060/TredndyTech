@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TrendyTech" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="Base.Theme.TrendyTech.sec">
+        <item name="android:statusBarColor">@color/bg</item>
+    </style>
+    <style name="Theme.TrendyTech" parent="Base.Theme.TrendyTech" >
+        <item name="android:statusBarColor">@color/bg</item>
+    </style>
+    <style name="Theme.SplashScreen" parent="Base.Theme.TrendyTech">
+        <item name="android:statusBarColor">#6a2055</item>
+    </style>
+</resources>
